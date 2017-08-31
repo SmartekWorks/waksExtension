@@ -1,0 +1,32 @@
+{
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "WAKS Tool for SWATHub",
+    "default_icon": {
+      "19": "icons/icon19.png",
+      "38": "icons/icon38.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_scripts/highlight.js"]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "tabs",
+    "<all_urls>"
+  ],  
+  "icons": {
+    "48": "icons/icon128.png",
+    "96": "icons/icon128.png"
+  },
+  "description": "WAKS Tool for SWATHub.",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/window-manipulator",
+  "manifest_version": 2,
+  "name": "WAKS Tool for SWATHub",
+  "version": "1.0"
+}

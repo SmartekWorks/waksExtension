@@ -1,0 +1,20 @@
+/*
+*= require fancytree/ui.fancytree.min.css
+*/
+.container ul.fancytree-container {
+	border: none;
+	overflow: auto;
+	position: relative;
+}
+
+.container ul.fancytree-container:focus {
+	outline: none;
+}
+
+.text-muted .fancytree-title {
+	color: #999;
+}
+
+.text-danger .fancytree-title {
+	color: #d9534f;
+}

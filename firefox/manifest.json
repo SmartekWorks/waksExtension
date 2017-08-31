@@ -25,7 +25,7 @@
     "96": "icons/icon128.png"
   },
   "description": "WAKS Tool for SWATHub.",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/window-manipulator",
+  "homepage_url": "https://github.com/SmartekWorks/waksExtension/tree/master/firefox",
   "manifest_version": 2,
   "name": "WAKS Tool for SWATHub",
   "version": "1.0"

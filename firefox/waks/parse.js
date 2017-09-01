@@ -225,6 +225,15 @@ $(function () {
     }
     browser.storage.local.set({ server: server }).then(function () {
       serverInfo = server
+      if (!shtmFile) {
+        return getShtmString(targetTab)
+      } else {
+        return shtmFile
+      }
+    }).then(function (base64String) {
+      shtmFile = base64String
+    }).catch(function (error) {
+      console.log(`Error: ${error}`)
     })
   })
 
